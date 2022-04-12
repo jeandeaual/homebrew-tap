@@ -1,11 +1,11 @@
-cask "font-haranoaji" do
+cask "font-harano-aji" do
   version "20220220"
   sha256 "7c122107373f228f6392c10a45123e20e2ca065e0e229b76717e81b4abb0b10a"
 
   url "https://github.com/trueroad/HaranoAjiFonts/archive/refs/tags/#{version}.zip"
-  appcast "https://github.com/trueroad/HaranoAjiFonts/releases.atom"
-  name "Harano Aji Fonts"
-  desc "Fonts obtained by replacing Adobe-Identity-0 (AI0) CIDs of Source Han fonts (Source Han Serif and Source Han Sans) with Adobe-Japan1 (AJ1) CIDs."
+  name "Harano Aji"
+  name "原ノ味"
+  desc "Fonts obtained by replacing Adobe-Identity-0 (AI0) CIDs of Source Han fonts (Source Han Serif and Source Han Sans) with Adobe-Japan1 (AJ1) CIDs"
   homepage "https://github.com/trueroad/HaranoAjiFonts"
 
   font "HaranoAjiFonts-#{version}/HaranoAjiGothic-Bold.otf"
