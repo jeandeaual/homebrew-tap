@@ -6,8 +6,8 @@ class Setledsmac < Formula
   license "GPL-2.0"
   head "https://github.com/damieng/setledsmac.git", branch: "master"
 
-  depends_on :macos
   depends_on xcode: :build
+  depends_on :macos
 
   def install
     xcodebuild "-project", "Source/SetLEDs.xcodeproj", "SYMROOT=build"
