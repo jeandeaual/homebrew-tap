@@ -1,3 +1,8 @@
+### Homebrew ###
+bottle_output.txt
+linkage_output.txt
+*.bottle.*
+
 ### Ruby ###
 *.gem
 *.rbc
